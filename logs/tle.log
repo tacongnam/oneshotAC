@@ -1,0 +1,1681 @@
+15-03-2020 16:07:19:INFO:tle.util.font_downloader:Downloading font `NotoSansCJK-Bold.ttc`.
+15-03-2020 16:08:06:INFO:tle.util.font_downloader:Downloading font `NotoSansCJK-Regular.ttc`.
+15-03-2020 16:08:41:WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+15-03-2020 16:11:57:WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+15-03-2020 16:14:37:WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+15-03-2020 16:14:37:INFO:tle.cogs.logging:Skipping installation of logging cog as logging channel is not provided.
+15-03-2020 16:14:37:INFO:root:Cogs loaded: CacheControl, Codeforces, Contests, CSES, Dueling, Graphs, Handles, Meta, Starboard
+15-03-2020 16:14:37:INFO:discord.client:logging in using static token
+15-03-2020 16:14:39:INFO:discord.gateway:Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+15-03-2020 16:14:39:INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+15-03-2020 16:14:39:INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-vkpb",{"micros":44525,"calls":["discord-sessions-prd-1-1",{"micros":42526,"calls":["start_session",{"micros":31790,"calls":["api-prd-main-h2t1",{"micros":28514,"calls":["get_user",{"micros":4069},"add_authorized_ip",{"micros":1626},"get_guilds",{"micros":1888},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":9828,"calls":[]}]}]}] (Session ID: 3798a20273a80df607e3dd5a2dc187a9).
+15-03-2020 16:14:41:INFO:RatingChangesCache:Ratings for 0 handles cached
+15-03-2020 16:14:41:WARNING:RatingChangesCache:Rating changes cache on disk is empty. This must be populated manually before use.
+15-03-2020 16:14:41:INFO:Task:Starting up task `RatingChangesCacheUpdate`.
+15-03-2020 16:14:41:INFO:Task:Starting up task `RanklistCacheUpdate`.
+15-03-2020 16:14:41:INFO:ContestCache:Contest cache on disk is empty.
+15-03-2020 16:14:41:INFO:Task:Starting up task `ContestCacheUpdate`.
+15-03-2020 16:14:41:INFO:ProblemCache:Problem cache on disk is empty.
+15-03-2020 16:14:41:INFO:Task:Starting up task `ProblemCacheUpdate`.
+15-03-2020 16:14:41:WARNING:ProblemsetCache:Problemset cache on disk is empty. This must be populated manually before use.
+15-03-2020 16:14:41:INFO:Task:Starting up task `ProblemsetCacheUpdate`.
+15-03-2020 16:14:41:WARNING:tle.util.codeforces_common:JSON file containing contest writers not found
+15-03-2020 16:14:41:INFO:Task:Starting up task `ContestCogUpdate`.
+15-03-2020 16:14:41:INFO:Task:Starting up task `SetExUsersInactive`.
+15-03-2020 16:14:41:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 16:14:41:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/problemset.problems with {}
+15-03-2020 16:14:41:INFO:ProblemsetCache:Saved 0 problems to database.
+15-03-2020 16:14:41:INFO:ProblemsetCache:0 new problems saved and 0 saved problems updated.
+15-03-2020 16:14:43:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 16:14:43:INFO:ContestCache:1261 contests stored in database
+15-03-2020 16:14:43:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 16:14:43:INFO:Task:Starting up task `RatingChangesCacheUpdate.MonitorNewlyFinishedContests`.
+15-03-2020 16:14:43:INFO:Task:Starting up task `RanklistCacheUpdate.MonitorActiveContests`.
+15-03-2020 16:14:43:INFO:Contests:Refreshed cache
+15-03-2020 16:14:43:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 16:14:43:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.ratingChanges with {'contestId': 1325}
+15-03-2020 16:14:43:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 16:14:44:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 16:14:45:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 16:14:45:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 16:14:45:INFO:ProblemCache:5887 problems fetched from API
+15-03-2020 16:14:45:INFO:ProblemCache:Keeping 5462 problems
+15-03-2020 16:14:45:INFO:ProblemCache:5462 problems stored in database
+15-03-2020 16:14:45:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 16:14:45:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 16:14:45:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1325, 'showUnofficial': 'true'}
+15-03-2020 16:14:47:INFO:RatingChangesCache:9400 rating changes fetched for contest 1325
+15-03-2020 16:14:47:INFO:RatingChangesCache:Saved 9400 changes to database.
+15-03-2020 16:14:47:INFO:RatingChangesCache:Ratings for 9400 handles cached
+15-03-2020 16:14:47:INFO:EventSystem:Dispatching event `RatingChangesUpdate`
+15-03-2020 16:14:47:INFO:Handles:All guilds updated for contest 1325.
+15-03-2020 16:14:50:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1325}
+15-03-2020 16:14:55:INFO:RanklistCache:Ranklist fetched for contest 1325
+15-03-2020 16:16:55:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 16:16:56:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 16:16:56:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 16:16:56:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 16:16:56:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 16:16:56:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 16:17:03:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.info with {'handles': 'GrintonDH'}
+15-03-2020 16:18:04:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.status with {'handle': 'GrintonDH', 'count': 5}
+15-03-2020 16:18:56:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 16:18:57:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 16:18:58:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 16:18:58:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 16:18:58:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 16:18:58:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 16:19:43:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 16:19:52:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 16:19:52:INFO:ContestCache:1261 contests stored in database
+15-03-2020 16:19:52:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 16:19:52:INFO:Task:Stopping task `RatingChangesCacheUpdate.MonitorNewlyFinishedContests`.
+15-03-2020 16:19:52:INFO:Contests:Refreshed cache
+15-03-2020 16:19:52:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 16:20:23:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.info with {'handles': 'GrintonDH'}
+15-03-2020 16:20:58:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 16:20:59:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 16:20:59:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 16:20:59:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 16:20:59:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 16:21:00:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 16:21:24:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.status with {'handle': 'GrintonDH', 'count': 5}
+15-03-2020 16:21:25:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.info with {'handles': 'GrintonDH'}
+15-03-2020 16:23:00:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 16:23:00:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 16:23:01:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 16:23:01:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 16:23:01:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 16:23:01:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 16:24:52:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 16:24:54:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 16:24:54:INFO:ContestCache:1261 contests stored in database
+15-03-2020 16:24:54:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 16:24:54:INFO:Contests:Refreshed cache
+15-03-2020 16:24:54:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 16:25:01:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 16:25:02:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 16:25:02:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 16:25:02:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 16:25:02:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 16:25:02:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 16:26:26:ERROR:tle.util.discord_common:Ignoring exception in command None:
+discord.ext.commands.errors.CommandNotFound: Command "clear" is not found
+15-03-2020 16:26:46:ERROR:tle.util.discord_common:Ignoring exception in command ranklist:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\bot.py", line 892, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 790, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 751, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 670, in _parse_arguments
+    transformed = await self.transform(ctx, param)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 516, in transform
+    raise MissingRequiredArgument(param)
+discord.ext.commands.errors.MissingRequiredArgument: contest_id is a required argument that is missing.
+15-03-2020 16:27:02:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 16:27:03:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 16:27:04:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 16:27:04:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 16:27:04:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 16:27:04:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 16:34:52:WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+15-03-2020 16:34:56:INFO:tle.cogs.logging:Skipping installation of logging cog as logging channel is not provided.
+15-03-2020 16:34:56:INFO:root:Cogs loaded: CacheControl, Codeforces, Contests, CSES, Dueling, Graphs, Handles, Meta, Starboard
+15-03-2020 16:34:56:INFO:discord.client:logging in using static token
+15-03-2020 16:34:57:INFO:discord.client:Cleaning up tasks.
+15-03-2020 16:34:57:INFO:discord.client:Closing the event loop.
+15-03-2020 16:36:28:WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+15-03-2020 16:36:28:INFO:tle.cogs.logging:Skipping installation of logging cog as logging channel is not provided.
+15-03-2020 16:36:28:INFO:root:Cogs loaded: CacheControl, Codeforces, Contests, CSES, Dueling, Graphs, Handles, Meta, Starboard
+15-03-2020 16:36:28:INFO:discord.client:logging in using static token
+15-03-2020 16:36:28:WARNING:discord.http:We are being rate limited. Retrying in 0.29 seconds. Handled under the bucket "None:None:/users/@me"
+15-03-2020 16:36:28:WARNING:discord.http:Global rate limit has been hit. Retrying in 0.29 seconds.
+15-03-2020 16:36:29:INFO:discord.client:Cleaning up tasks.
+15-03-2020 16:36:29:INFO:discord.client:Closing the event loop.
+15-03-2020 16:39:33:WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+15-03-2020 16:39:34:INFO:tle.cogs.logging:Skipping installation of logging cog as logging channel is not provided.
+15-03-2020 16:39:34:INFO:root:Cogs loaded: CacheControl, Codeforces, Contests, CSES, Dueling, Graphs, Handles, Meta, Starboard
+15-03-2020 16:39:34:INFO:discord.client:logging in using static token
+15-03-2020 16:39:35:INFO:discord.gateway:Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+15-03-2020 16:39:35:INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+15-03-2020 16:39:35:INFO:discord.gateway:Websocket closed with 4004 (Authentication failed.), cannot reconnect.
+15-03-2020 16:39:35:INFO:discord.client:Cleaning up tasks.
+15-03-2020 16:39:35:INFO:discord.client:Closing the event loop.
+15-03-2020 16:39:50:WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+15-03-2020 16:39:50:INFO:tle.cogs.logging:Skipping installation of logging cog as logging channel is not provided.
+15-03-2020 16:39:50:INFO:root:Cogs loaded: CacheControl, Codeforces, Contests, CSES, Dueling, Graphs, Handles, Meta, Starboard
+15-03-2020 16:39:50:INFO:discord.client:logging in using static token
+15-03-2020 16:39:51:INFO:discord.gateway:Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+15-03-2020 16:39:51:INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+15-03-2020 16:39:51:INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-j84j",{"micros":48195,"calls":["discord-sessions-prd-1-30",{"micros":44550,"calls":["start_session",{"micros":40696,"calls":["api-prd-main-j5k6",{"micros":36414,"calls":["get_user",{"micros":3351},"add_authorized_ip",{"micros":5396},"get_guilds",{"micros":2330},"coros_wait",{"micros":6}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 8ad99f82a1412a47841a3a525ab03e15).
+15-03-2020 16:39:53:INFO:RatingChangesCache:Ratings for 0 handles cached
+15-03-2020 16:39:53:WARNING:RatingChangesCache:Rating changes cache on disk is empty. This must be populated manually before use.
+15-03-2020 16:39:53:INFO:Task:Starting up task `RatingChangesCacheUpdate`.
+15-03-2020 16:39:53:INFO:Task:Starting up task `RanklistCacheUpdate`.
+15-03-2020 16:39:53:INFO:ContestCache:Contest cache on disk is empty.
+15-03-2020 16:39:53:INFO:Task:Starting up task `ContestCacheUpdate`.
+15-03-2020 16:39:53:INFO:ProblemCache:Problem cache on disk is empty.
+15-03-2020 16:39:53:INFO:Task:Starting up task `ProblemCacheUpdate`.
+15-03-2020 16:39:53:WARNING:ProblemsetCache:Problemset cache on disk is empty. This must be populated manually before use.
+15-03-2020 16:39:53:INFO:Task:Starting up task `ProblemsetCacheUpdate`.
+15-03-2020 16:39:53:WARNING:tle.util.codeforces_common:JSON file containing contest writers not found
+15-03-2020 16:39:53:INFO:Task:Starting up task `ContestCogUpdate`.
+15-03-2020 16:39:53:INFO:Task:Starting up task `SetExUsersInactive`.
+15-03-2020 16:39:53:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 16:39:53:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/problemset.problems with {}
+15-03-2020 16:39:53:INFO:ProblemsetCache:Saved 0 problems to database.
+15-03-2020 16:39:53:INFO:ProblemsetCache:0 new problems saved and 0 saved problems updated.
+15-03-2020 16:39:55:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 16:39:55:INFO:ContestCache:1261 contests stored in database
+15-03-2020 16:39:55:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 16:39:55:INFO:Task:Starting up task `RatingChangesCacheUpdate.MonitorNewlyFinishedContests`.
+15-03-2020 16:39:55:INFO:Task:Starting up task `RanklistCacheUpdate.MonitorActiveContests`.
+15-03-2020 16:39:55:INFO:Contests:Refreshed cache
+15-03-2020 16:39:55:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 16:39:55:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.ratingChanges with {'contestId': 1325}
+15-03-2020 16:39:55:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 16:39:56:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 16:39:56:INFO:ProblemCache:5887 problems fetched from API
+15-03-2020 16:39:56:INFO:ProblemCache:Keeping 5462 problems
+15-03-2020 16:39:56:INFO:ProblemCache:5462 problems stored in database
+15-03-2020 16:39:56:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 16:39:56:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 16:39:57:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 16:39:57:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 16:39:57:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1325, 'showUnofficial': 'true'}
+15-03-2020 16:39:58:INFO:RatingChangesCache:9400 rating changes fetched for contest 1325
+15-03-2020 16:39:58:INFO:RatingChangesCache:Saved 9400 changes to database.
+15-03-2020 16:39:58:INFO:RatingChangesCache:Ratings for 9400 handles cached
+15-03-2020 16:39:58:INFO:EventSystem:Dispatching event `RatingChangesUpdate`
+15-03-2020 16:39:58:INFO:Handles:All guilds updated for contest 1325.
+15-03-2020 16:40:02:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1325}
+15-03-2020 16:40:07:INFO:RanklistCache:Ranklist fetched for contest 1325
+15-03-2020 16:40:40:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.info with {'handles': 'GrintonDH'}
+15-03-2020 16:41:42:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.status with {'handle': 'GrintonDH', 'count': 5}
+15-03-2020 16:41:44:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.info with {'handles': 'GrintonDH'}
+15-03-2020 16:42:03:ERROR:tle.util.discord_common:Ignoring exception in command None:
+discord.ext.commands.errors.CommandNotFound: Command "ranking" is not found
+15-03-2020 16:42:07:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 16:42:08:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 16:42:08:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 16:42:08:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 16:42:08:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 16:42:08:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 16:42:22:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.rating with {'handle': 'GrintonDH'}
+15-03-2020 16:43:42:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.status with {'handle': 'GrintonDH'}
+15-03-2020 16:43:46:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.status with {'handle': 'GrintonDH'}
+15-03-2020 16:44:08:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.status with {'handle': 'GrintonDH'}
+15-03-2020 16:44:08:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 16:44:09:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 16:44:10:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 16:44:10:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 16:44:10:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 16:44:10:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 16:44:23:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.status with {'handle': 'GrintonDH'}
+15-03-2020 16:44:24:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.info with {'handles': 'GrintonDH'}
+15-03-2020 16:45:24:WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+15-03-2020 16:45:24:INFO:tle.cogs.logging:Skipping installation of logging cog as logging channel is not provided.
+15-03-2020 16:45:24:INFO:root:Cogs loaded: CacheControl, Codeforces, Contests, CSES, Dueling, Graphs, Handles, Meta, Starboard
+15-03-2020 16:45:24:INFO:discord.client:logging in using static token
+15-03-2020 16:45:26:INFO:discord.gateway:Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+15-03-2020 16:45:26:INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+15-03-2020 16:45:26:INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-j4wt",{"micros":44224,"calls":["discord-sessions-prd-1-49",{"micros":42942,"calls":["start_session",{"micros":38246,"calls":["api-prd-main-ljqb",{"micros":34565,"calls":["get_user",{"micros":3472},"add_authorized_ip",{"micros":1957},"get_guilds",{"micros":1917},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1215,"calls":[]}]}]}] (Session ID: 2d6cb67d75c2a9e8680920223609b0a6).
+15-03-2020 16:45:29:INFO:RatingChangesCache:Ratings for 9400 handles cached
+15-03-2020 16:45:29:INFO:Task:Starting up task `RatingChangesCacheUpdate`.
+15-03-2020 16:45:29:INFO:Task:Starting up task `RanklistCacheUpdate`.
+15-03-2020 16:45:29:INFO:ContestCache:1261 contests fetched from disk
+15-03-2020 16:45:29:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 16:45:29:INFO:Task:Starting up task `ContestCacheUpdate`.
+15-03-2020 16:45:29:INFO:ProblemCache:5462 problems fetched from disk
+15-03-2020 16:45:29:INFO:Task:Starting up task `ProblemCacheUpdate`.
+15-03-2020 16:45:29:WARNING:ProblemsetCache:Problemset cache on disk is empty. This must be populated manually before use.
+15-03-2020 16:45:29:INFO:Task:Starting up task `ProblemsetCacheUpdate`.
+15-03-2020 16:45:29:WARNING:tle.util.codeforces_common:JSON file containing contest writers not found
+15-03-2020 16:45:29:INFO:Task:Starting up task `ContestCogUpdate`.
+15-03-2020 16:45:29:INFO:Task:Starting up task `SetExUsersInactive`.
+15-03-2020 16:45:29:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 16:45:29:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/problemset.problems with {}
+15-03-2020 16:45:29:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1319, 'from': 1, 'count': 1}
+15-03-2020 16:45:34:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1320, 'from': 1, 'count': 1}
+15-03-2020 16:45:34:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1321, 'from': 1, 'count': 1}
+15-03-2020 16:45:35:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 16:45:35:INFO:ContestCache:1261 contests stored in database
+15-03-2020 16:45:35:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 16:45:35:INFO:Task:Starting up task `RanklistCacheUpdate.MonitorActiveContests`.
+15-03-2020 16:45:35:INFO:Contests:Refreshed cache
+15-03-2020 16:45:35:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 16:45:35:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 16:45:35:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 16:45:35:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 16:45:35:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 16:45:35:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 16:45:36:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1305, 'from': 1, 'count': 1}
+15-03-2020 16:45:36:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 16:45:37:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1316, 'from': 1, 'count': 1}
+15-03-2020 16:45:37:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1322, 'from': 1, 'count': 1}
+15-03-2020 16:45:39:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1323, 'from': 1, 'count': 1}
+15-03-2020 16:45:40:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1312, 'from': 1, 'count': 1}
+15-03-2020 16:45:41:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1324, 'from': 1, 'count': 1}
+15-03-2020 16:45:42:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1325, 'from': 1, 'count': 1}
+15-03-2020 16:45:42:INFO:ProblemCache:5887 problems fetched from API
+15-03-2020 16:45:42:INFO:ProblemCache:Keeping 5462 problems
+15-03-2020 16:45:43:INFO:ProblemCache:5462 problems stored in database
+15-03-2020 16:45:43:INFO:ProblemsetCache:Saved 65 problems to database.
+15-03-2020 16:45:43:INFO:ProblemsetCache:65 new problems saved and 0 saved problems updated.
+15-03-2020 16:45:52:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.info with {'handles': 'np4s'}
+15-03-2020 16:46:53:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.status with {'handle': 'np4s', 'count': 5}
+15-03-2020 16:47:35:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.status with {'handle': 'GrintonDH'}
+15-03-2020 16:47:36:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 16:47:36:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 16:47:37:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 16:47:37:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 16:47:41:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 16:47:44:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 16:49:44:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 16:49:45:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 16:49:46:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 16:49:46:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 16:49:47:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 16:49:47:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 16:50:35:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 16:50:36:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 16:50:36:INFO:ContestCache:1261 contests stored in database
+15-03-2020 16:50:36:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 16:50:36:INFO:Contests:Refreshed cache
+15-03-2020 16:50:36:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 16:51:47:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 16:51:48:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 16:51:49:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 16:51:49:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 16:51:49:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 16:51:49:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 16:53:19:ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-22' coro=<CSES._cache_data() done, defined at C:\Users\Administrator\TLE\tle\cogs\cses.py:26> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\TLE\tle\cogs\cses.py", line 28, in _cache_data
+    await self._reload()
+  File "C:\Users\Administrator\TLE\tle\cogs\cses.py", line 37, in _reload
+    fast, short = await cses.get_problem_leaderboard(pid)
+  File "C:\Users\Administrator\TLE\tle\util\cses_scraper.py", line 30, in get_problem_leaderboard
+    tree = await _fetch(f'https://cses.fi/problemset/stats/{num}/')
+  File "C:\Users\Administrator\TLE\tle\util\cses_scraper.py", line 15, in _fetch
+    async with session.get(url) as response:
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\aiohttp\client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\aiohttp\client.py", line 504, in _request
+    await resp.start(conn)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\aiohttp\client_reqrep.py", line 860, in start
+    self._continue = None
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\aiohttp\helpers.py", line 596, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+15-03-2020 16:53:49:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 16:53:50:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 16:53:50:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 16:53:50:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 16:53:51:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 16:53:51:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 16:55:36:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 16:55:38:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 16:55:38:INFO:ContestCache:1261 contests stored in database
+15-03-2020 16:55:38:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 16:55:38:INFO:Contests:Refreshed cache
+15-03-2020 16:55:38:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 16:55:51:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 16:55:51:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 16:55:51:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 16:55:51:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 16:55:52:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 16:55:52:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 16:57:33:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.status with {'handle': 'GrintonDH'}
+15-03-2020 16:57:52:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 16:57:52:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 16:57:54:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 16:57:54:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 16:57:55:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 16:57:56:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 16:58:26:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.rating with {'handle': 'GrintonDH'}
+15-03-2020 16:58:27:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.status with {'handle': 'GrintonDH'}
+15-03-2020 16:59:56:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 16:59:56:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 16:59:57:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 16:59:57:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 16:59:57:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 16:59:57:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 17:00:38:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 17:00:39:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 17:00:39:INFO:ContestCache:1261 contests stored in database
+15-03-2020 17:00:39:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 17:00:39:INFO:Contests:Refreshed cache
+15-03-2020 17:00:39:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 17:01:57:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 17:01:58:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 17:01:59:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 17:01:59:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 17:01:59:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 17:01:59:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 17:03:59:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 17:04:00:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 17:04:01:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 17:04:01:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 17:04:01:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 17:04:01:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 17:05:39:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 17:05:41:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 17:05:41:INFO:ContestCache:1261 contests stored in database
+15-03-2020 17:05:41:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 17:05:41:INFO:Contests:Refreshed cache
+15-03-2020 17:05:41:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 17:06:01:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 17:06:02:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 17:06:02:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 17:06:02:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 17:06:03:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 17:06:03:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 17:08:03:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 17:08:04:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 17:08:04:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 17:08:04:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 17:08:04:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 17:08:05:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 17:10:05:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 17:10:05:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 17:10:06:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 17:10:06:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 17:10:06:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 17:10:06:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 17:10:41:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 17:10:42:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 17:10:42:INFO:ContestCache:1261 contests stored in database
+15-03-2020 17:10:42:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 17:10:42:INFO:Contests:Refreshed cache
+15-03-2020 17:10:42:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 17:12:06:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 17:12:07:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 17:12:07:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 17:12:07:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 17:12:07:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 17:12:08:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 17:14:08:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 17:14:09:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 17:14:09:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 17:14:09:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 17:14:09:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 17:14:10:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 17:15:42:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 17:15:44:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 17:15:44:INFO:ContestCache:1261 contests stored in database
+15-03-2020 17:15:44:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 17:15:44:INFO:Contests:Refreshed cache
+15-03-2020 17:15:44:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 17:16:10:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 17:16:10:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 17:16:11:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 17:16:11:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 17:16:11:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 17:16:11:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 17:18:11:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 17:18:12:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 17:18:12:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 17:18:12:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 17:18:13:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 17:18:13:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 17:20:13:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 17:20:14:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 17:20:14:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 17:20:14:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 17:20:14:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 17:20:15:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 17:20:44:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 17:20:45:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 17:20:45:INFO:ContestCache:1261 contests stored in database
+15-03-2020 17:20:45:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 17:20:45:INFO:Contests:Refreshed cache
+15-03-2020 17:20:45:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 17:22:15:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 17:22:16:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 17:22:16:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 17:22:16:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 17:22:16:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 17:22:17:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 17:24:17:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 17:24:17:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 17:24:18:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 17:24:18:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 17:24:18:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 17:24:18:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 17:25:45:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 17:25:46:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 17:25:46:INFO:ContestCache:1261 contests stored in database
+15-03-2020 17:25:46:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 17:25:46:INFO:Contests:Refreshed cache
+15-03-2020 17:25:46:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 17:26:18:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 17:26:19:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 17:26:20:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 17:26:20:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 17:26:20:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 17:26:20:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 17:28:20:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 17:28:21:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 17:28:21:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 17:28:21:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 17:28:22:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 17:28:22:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 17:30:22:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 17:30:23:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 17:30:23:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 17:30:23:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 17:30:25:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 17:30:25:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 17:30:46:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 17:30:47:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 17:30:47:INFO:ContestCache:1261 contests stored in database
+15-03-2020 17:30:47:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 17:30:47:INFO:Contests:Refreshed cache
+15-03-2020 17:30:47:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 17:32:25:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 17:32:26:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 17:32:26:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 17:32:26:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 17:32:26:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 17:32:27:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 17:34:27:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 17:34:27:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 17:34:28:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 17:34:28:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 17:34:28:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 17:34:28:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 17:35:47:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 17:35:49:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 17:35:50:INFO:ContestCache:1261 contests stored in database
+15-03-2020 17:35:50:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 17:35:50:INFO:Contests:Refreshed cache
+15-03-2020 17:35:50:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 17:36:28:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 17:36:29:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 17:36:29:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 17:36:29:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 17:36:30:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 17:36:30:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 17:36:48:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.info with {'handles': 'np4s'}
+15-03-2020 17:37:50:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.status with {'handle': 'np4s', 'count': 5}
+15-03-2020 17:38:30:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 17:38:31:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 17:38:31:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 17:38:31:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 17:38:32:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 17:38:32:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 17:40:32:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 17:40:33:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 17:40:33:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 17:40:33:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 17:40:33:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 17:40:33:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 17:40:50:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 17:40:51:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 17:40:51:INFO:ContestCache:1261 contests stored in database
+15-03-2020 17:40:51:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 17:40:51:INFO:Contests:Refreshed cache
+15-03-2020 17:40:51:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 17:42:33:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 17:42:34:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 17:42:35:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 17:42:35:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 17:42:35:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 17:42:35:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 17:43:23:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.status with {'handle': 'GrintonDH'}
+15-03-2020 17:44:35:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 17:44:36:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 17:44:36:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 17:44:36:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 17:44:36:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 17:44:37:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 17:45:43:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1325, 'from': 1, 'count': 1}
+15-03-2020 17:45:44:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1312, 'from': 1, 'count': 1}
+15-03-2020 17:45:45:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1319, 'from': 1, 'count': 1}
+15-03-2020 17:45:46:INFO:ProblemsetCache:Saved 0 problems to database.
+15-03-2020 17:45:46:INFO:ProblemsetCache:0 new problems saved and 0 saved problems updated.
+15-03-2020 17:45:51:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 17:45:52:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 17:45:52:INFO:ContestCache:1261 contests stored in database
+15-03-2020 17:45:52:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 17:45:52:INFO:Contests:Refreshed cache
+15-03-2020 17:45:52:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 17:46:37:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 17:46:38:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 17:46:38:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 17:46:38:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 17:46:38:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 17:46:38:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 17:48:38:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 17:48:39:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 17:48:40:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 17:48:40:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 17:48:41:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 17:48:41:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 17:50:41:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 17:50:42:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 17:50:42:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 17:50:42:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 17:50:43:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 17:50:43:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 17:50:52:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 17:50:53:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 17:50:53:INFO:ContestCache:1261 contests stored in database
+15-03-2020 17:50:53:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 17:50:53:INFO:Contests:Refreshed cache
+15-03-2020 17:50:53:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 17:52:43:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 17:52:44:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 17:52:44:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 17:52:44:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 17:52:45:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 17:52:45:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 17:52:50:ERROR:tle.util.discord_common:Ignoring exception in command None:
+discord.ext.commands.errors.CommandNotFound: Command "CF" is not found
+15-03-2020 17:53:16:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.info with {'handles': 'Killian0812'}
+15-03-2020 17:54:17:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.status with {'handle': 'Killian0812', 'count': 5}
+15-03-2020 17:54:19:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.info with {'handles': 'Killian0812'}
+15-03-2020 17:54:45:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 17:54:46:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 17:54:47:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 17:54:47:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 17:54:49:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 17:54:51:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 17:55:53:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 17:55:56:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 17:55:56:INFO:ContestCache:1261 contests stored in database
+15-03-2020 17:55:56:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 17:55:56:INFO:Contests:Refreshed cache
+15-03-2020 17:55:56:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 17:56:51:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 17:56:52:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 17:56:53:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 17:56:53:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 17:56:53:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 17:56:53:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 17:58:53:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 17:58:54:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 17:58:54:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 17:58:54:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 17:58:54:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 17:58:55:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 18:00:55:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 18:00:55:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 18:00:56:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 18:00:56:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 18:00:56:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 18:00:56:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 18:00:56:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 18:00:57:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 18:00:57:INFO:ContestCache:1261 contests stored in database
+15-03-2020 18:00:57:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 18:00:57:INFO:Contests:Refreshed cache
+15-03-2020 18:00:57:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 18:02:56:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 18:02:57:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 18:02:58:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 18:02:58:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 18:02:58:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 18:02:58:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 18:04:58:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 18:04:59:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 18:04:59:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 18:04:59:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 18:04:59:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 18:05:00:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 18:05:57:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 18:05:59:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 18:05:59:INFO:ContestCache:1261 contests stored in database
+15-03-2020 18:05:59:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 18:05:59:INFO:Contests:Refreshed cache
+15-03-2020 18:05:59:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 18:07:00:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 18:07:00:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 18:07:01:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 18:07:01:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 18:07:01:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 18:07:01:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 18:09:01:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 18:09:02:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 18:09:02:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 18:09:02:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 18:09:02:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 18:09:03:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 18:10:59:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 18:11:01:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 18:11:01:INFO:ContestCache:1261 contests stored in database
+15-03-2020 18:11:01:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 18:11:01:INFO:Contests:Refreshed cache
+15-03-2020 18:11:01:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 18:11:03:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 18:11:03:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 18:11:03:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 18:11:03:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 18:11:04:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 18:11:04:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 18:13:04:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 18:13:05:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 18:13:05:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 18:13:05:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 18:13:05:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 18:13:05:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 18:15:05:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 18:15:06:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 18:15:06:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 18:15:06:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 18:15:07:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 18:15:07:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 18:16:01:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 18:16:02:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 18:16:02:INFO:ContestCache:1261 contests stored in database
+15-03-2020 18:16:02:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 18:16:02:INFO:Contests:Refreshed cache
+15-03-2020 18:16:02:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 18:17:07:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 18:17:08:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 18:17:08:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 18:17:08:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 18:17:08:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 18:17:09:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 18:19:09:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 18:19:09:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 18:19:10:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 18:19:10:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 18:19:10:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 18:19:10:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 18:21:02:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 18:21:03:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 18:21:03:INFO:ContestCache:1261 contests stored in database
+15-03-2020 18:21:03:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 18:21:03:INFO:Contests:Refreshed cache
+15-03-2020 18:21:03:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 18:21:10:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 18:21:10:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 18:21:11:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 18:21:11:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 18:21:11:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 18:21:11:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 18:23:11:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 18:23:12:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 18:23:12:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 18:23:12:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 18:23:12:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 18:23:13:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 18:25:13:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 18:25:14:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 18:25:14:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 18:25:14:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 18:25:14:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 18:25:14:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 18:26:03:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 18:26:06:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 18:26:06:INFO:ContestCache:1261 contests stored in database
+15-03-2020 18:26:06:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 18:26:06:INFO:Contests:Refreshed cache
+15-03-2020 18:26:06:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 18:27:14:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 18:27:15:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 18:27:15:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 18:27:15:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 18:27:16:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 18:27:16:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 18:29:16:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 18:29:17:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 18:29:17:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 18:29:17:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 18:29:17:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 18:29:18:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 18:31:06:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 18:31:07:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 18:31:07:INFO:ContestCache:1261 contests stored in database
+15-03-2020 18:31:07:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 18:31:07:INFO:Contests:Refreshed cache
+15-03-2020 18:31:07:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 18:31:18:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 18:31:18:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 18:31:18:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 18:31:18:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 18:31:18:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 18:31:19:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 18:33:19:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 18:33:19:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 18:33:20:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 18:33:20:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 18:33:20:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 18:33:20:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 18:35:20:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 18:35:21:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 18:35:21:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 18:35:21:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 18:35:22:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 18:35:22:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 18:36:07:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 18:36:09:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 18:36:09:INFO:ContestCache:1261 contests stored in database
+15-03-2020 18:36:09:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 18:36:09:INFO:Contests:Refreshed cache
+15-03-2020 18:36:09:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 18:37:22:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 18:37:23:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 18:37:23:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 18:37:23:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 18:37:23:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 18:37:23:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 18:39:23:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 18:39:24:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 18:39:24:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 18:39:24:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 18:39:25:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 18:39:25:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 18:41:09:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 18:41:12:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 18:41:12:INFO:ContestCache:1261 contests stored in database
+15-03-2020 18:41:12:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 18:41:12:INFO:Contests:Refreshed cache
+15-03-2020 18:41:12:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 18:41:25:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 18:41:25:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 18:41:26:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 18:41:26:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 18:41:26:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 18:41:26:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 18:43:26:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 18:43:27:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 18:43:27:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 18:43:27:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 18:43:27:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 18:43:28:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 18:45:28:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 18:45:28:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 18:45:29:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 18:45:29:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 18:45:29:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 18:45:30:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 18:45:46:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1325, 'from': 1, 'count': 1}
+15-03-2020 18:45:48:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1312, 'from': 1, 'count': 1}
+15-03-2020 18:45:49:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1319, 'from': 1, 'count': 1}
+15-03-2020 18:45:49:INFO:ProblemsetCache:Saved 0 problems to database.
+15-03-2020 18:45:49:INFO:ProblemsetCache:0 new problems saved and 0 saved problems updated.
+15-03-2020 18:46:12:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 18:46:14:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 18:46:14:INFO:ContestCache:1261 contests stored in database
+15-03-2020 18:46:14:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 18:46:14:INFO:Contests:Refreshed cache
+15-03-2020 18:46:14:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 18:47:30:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 18:47:31:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 18:47:32:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 18:47:32:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 18:47:32:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 18:47:32:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 18:49:32:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 18:49:34:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 18:49:35:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 18:49:35:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 18:49:35:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 18:49:35:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 18:51:14:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 18:51:15:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 18:51:15:INFO:ContestCache:1261 contests stored in database
+15-03-2020 18:51:15:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 18:51:15:INFO:Contests:Refreshed cache
+15-03-2020 18:51:15:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 18:51:35:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 18:51:36:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 18:51:36:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 18:51:36:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 18:51:36:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 18:51:37:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 18:52:58:ERROR:tle.util.discord_common:Ignoring exception in command remind here:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\bot.py", line 892, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 1234, in invoke
+    await ctx.invoked_subcommand.invoke(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 790, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 751, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 670, in _parse_arguments
+    transformed = await self.transform(ctx, param)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 516, in transform
+    raise MissingRequiredArgument(param)
+discord.ext.commands.errors.MissingRequiredArgument: role is a required argument that is missing.
+15-03-2020 18:53:19:ERROR:tle.util.discord_common:Ignoring exception in command clist active:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 83, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\Administrator\TLE\tle\cogs\contests.py", line 200, in active
+    await self._send_contest_list(ctx, self.active_contests,
+  File "C:\Users\Administrator\TLE\tle\cogs\contests.py", line 181, in _send_contest_list
+    paginator.paginate(self.bot, ctx.channel, pages, wait_time=_CONTEST_PAGINATE_WAIT_TIME,
+  File "C:\Users\Administrator\TLE\tle\util\paginator.py", line 83, in paginate
+    raise InsufficientPermissionsError('Permission to manage messages required')
+tle.util.paginator.InsufficientPermissionsError: Permission to manage messages required
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\bot.py", line 892, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 1234, in invoke
+    await ctx.invoked_subcommand.invoke(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 797, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 92, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: InsufficientPermissionsError: Permission to manage messages required
+15-03-2020 18:53:37:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 18:53:37:ERROR:tle.util.discord_common:Ignoring exception in command None:
+discord.ext.commands.errors.CommandNotFound: Command "futrue" is not found
+15-03-2020 18:53:38:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 18:53:38:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 18:53:38:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 18:53:38:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 18:53:38:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 18:53:44:ERROR:tle.util.discord_common:Ignoring exception in command clist future:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 83, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\Administrator\TLE\tle\cogs\contests.py", line 192, in future
+    await self._send_contest_list(ctx, self.future_contests,
+  File "C:\Users\Administrator\TLE\tle\cogs\contests.py", line 181, in _send_contest_list
+    paginator.paginate(self.bot, ctx.channel, pages, wait_time=_CONTEST_PAGINATE_WAIT_TIME,
+  File "C:\Users\Administrator\TLE\tle\util\paginator.py", line 83, in paginate
+    raise InsufficientPermissionsError('Permission to manage messages required')
+tle.util.paginator.InsufficientPermissionsError: Permission to manage messages required
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\bot.py", line 892, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 1234, in invoke
+    await ctx.invoked_subcommand.invoke(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 797, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 92, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: InsufficientPermissionsError: Permission to manage messages required
+15-03-2020 19:59:02:WARNING:discord.gateway:Shard ID None has stopped responding to the gateway. Closing and restarting.
+15-03-2020 19:59:02:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 19:59:07:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 19:59:07:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1325, 'from': 1, 'count': 1}
+15-03-2020 19:59:08:ERROR:tle.util.codeforces_api:Request to CF API encountered error: ClientConnectorError(ConnectionKey(host='codeforces.com', port=443, is_ssl=True, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+15-03-2020 19:59:11:INFO:tle.util.codeforces_api:Try 1/3 at query failed.
+15-03-2020 19:59:11:INFO:tle.util.codeforces_api:ClientError('Error connecting to Codeforces API')
+15-03-2020 19:59:11:INFO:tle.util.codeforces_api:Retrying...
+15-03-2020 19:59:11:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 19:59:11:ERROR:tle.util.codeforces_api:Request to CF API encountered error: ClientConnectorError(ConnectionKey(host='codeforces.com', port=443, is_ssl=True, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+15-03-2020 19:59:11:INFO:tle.util.codeforces_api:Try 1/3 at query failed.
+15-03-2020 19:59:11:INFO:tle.util.codeforces_api:ClientError('Error connecting to Codeforces API')
+15-03-2020 19:59:11:INFO:tle.util.codeforces_api:Retrying...
+15-03-2020 19:59:11:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 19:59:11:ERROR:tle.util.codeforces_api:Request to CF API encountered error: ClientConnectorError(ConnectionKey(host='codeforces.com', port=443, is_ssl=True, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), gaierror(11004, 'getaddrinfo failed'))
+15-03-2020 19:59:11:INFO:tle.util.codeforces_api:Try 1/3 at query failed.
+15-03-2020 19:59:11:INFO:tle.util.codeforces_api:ClientError('Error connecting to Codeforces API')
+15-03-2020 19:59:11:INFO:tle.util.codeforces_api:Retrying...
+15-03-2020 19:59:11:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1325, 'from': 1, 'count': 1}
+15-03-2020 19:59:17:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 19:59:17:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 19:59:17:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 19:59:18:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 19:59:18:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1312, 'from': 1, 'count': 1}
+15-03-2020 19:59:18:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 19:59:18:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 19:59:19:INFO:ContestCache:1261 contests stored in database
+15-03-2020 19:59:19:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 19:59:19:INFO:Contests:Refreshed cache
+15-03-2020 19:59:19:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 19:59:19:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1319, 'from': 1, 'count': 1}
+15-03-2020 19:59:19:INFO:ProblemsetCache:Saved 0 problems to database.
+15-03-2020 19:59:19:INFO:ProblemsetCache:0 new problems saved and 0 saved problems updated.
+15-03-2020 19:59:21:INFO:discord.gateway:Websocket closed with 1006 (), attempting a reconnect.
+15-03-2020 19:59:21:INFO:discord.client:Got a request to RESUME the websocket.
+15-03-2020 19:59:22:INFO:discord.gateway:Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+15-03-2020 19:59:22:INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+15-03-2020 19:59:23:INFO:discord.gateway:Shard ID None session has been invalidated.
+15-03-2020 19:59:28:INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+15-03-2020 19:59:28:INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-fqfb",{"micros":78902,"calls":["discord-sessions-prd-1-43",{"micros":76335,"calls":["start_session",{"micros":74204,"calls":["api-prd-main-n9nn",{"micros":57885,"calls":["get_user",{"micros":26663},"add_authorized_ip",{"micros":1798},"get_guilds",{"micros":2220},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":691,"calls":[]}]}]}] (Session ID: e2b2695009e1d37ec488d4ada495b93e).
+15-03-2020 20:01:18:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 20:01:19:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 20:01:19:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 20:01:19:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 20:01:20:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 20:01:20:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 20:03:20:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 20:03:22:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 20:03:23:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 20:03:23:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 20:03:23:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 20:03:23:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 20:04:19:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 20:04:24:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 20:04:24:INFO:ContestCache:1261 contests stored in database
+15-03-2020 20:04:24:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 20:04:24:INFO:Contests:Refreshed cache
+15-03-2020 20:04:24:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 20:05:23:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 20:05:24:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 20:05:25:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 20:05:25:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 20:05:25:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 20:05:26:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 20:07:26:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 20:07:28:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 20:07:28:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 20:07:28:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 20:07:30:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 20:07:30:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 20:09:24:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 20:09:25:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 20:09:25:INFO:ContestCache:1261 contests stored in database
+15-03-2020 20:09:25:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 20:09:25:INFO:Contests:Refreshed cache
+15-03-2020 20:09:25:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 20:09:30:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 20:09:30:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 20:09:31:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 20:09:31:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 20:09:31:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 20:09:31:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 20:11:31:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 20:11:32:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 20:11:33:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 20:11:33:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 20:11:33:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 20:11:33:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 20:13:12:ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1207' coro=<CSES._cache_data() done, defined at C:\Users\Administrator\TLE\tle\cogs\cses.py:26> exception=ServerDisconnectedError()>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\TLE\tle\cogs\cses.py", line 28, in _cache_data
+    await self._reload()
+  File "C:\Users\Administrator\TLE\tle\cogs\cses.py", line 37, in _reload
+    fast, short = await cses.get_problem_leaderboard(pid)
+  File "C:\Users\Administrator\TLE\tle\util\cses_scraper.py", line 30, in get_problem_leaderboard
+    tree = await _fetch(f'https://cses.fi/problemset/stats/{num}/')
+  File "C:\Users\Administrator\TLE\tle\util\cses_scraper.py", line 15, in _fetch
+    async with session.get(url) as response:
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\aiohttp\client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\aiohttp\client.py", line 504, in _request
+    await resp.start(conn)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\aiohttp\client_reqrep.py", line 847, in start
+    message, payload = await self._protocol.read()  # type: ignore  # noqa
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\aiohttp\streams.py", line 591, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError
+15-03-2020 20:13:33:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 20:13:36:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 20:13:37:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 20:13:37:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 20:13:37:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 20:13:38:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 20:14:25:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 20:14:30:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 20:14:30:INFO:ContestCache:1261 contests stored in database
+15-03-2020 20:14:30:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 20:14:30:INFO:Contests:Refreshed cache
+15-03-2020 20:14:30:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 20:15:38:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 20:15:39:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 20:15:39:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 20:15:39:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 20:15:40:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 20:15:40:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 20:17:40:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 20:17:41:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 20:17:41:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 20:17:41:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 20:17:41:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 20:17:42:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 20:19:30:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 20:19:31:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 20:19:31:INFO:ContestCache:1261 contests stored in database
+15-03-2020 20:19:31:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 20:19:31:INFO:Contests:Refreshed cache
+15-03-2020 20:19:31:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 20:19:42:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 20:19:42:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 20:19:42:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 20:19:42:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 20:19:43:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 20:19:43:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 20:21:43:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 20:21:44:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 20:21:45:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 20:21:45:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 20:21:45:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 20:21:45:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 20:23:45:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 20:23:46:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 20:23:47:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 20:23:47:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 20:23:47:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 20:23:47:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 20:24:31:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 20:24:33:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 20:24:33:INFO:ContestCache:1261 contests stored in database
+15-03-2020 20:24:33:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 20:24:33:INFO:Contests:Refreshed cache
+15-03-2020 20:24:33:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 20:25:47:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 20:25:50:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 20:25:50:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 20:25:50:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 20:25:51:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 20:25:52:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 20:27:52:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 20:27:53:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 20:27:53:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 20:27:53:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 20:27:53:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 20:27:54:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 20:29:33:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 20:29:34:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 20:29:34:INFO:ContestCache:1261 contests stored in database
+15-03-2020 20:29:34:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 20:29:35:INFO:Contests:Refreshed cache
+15-03-2020 20:29:35:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 20:29:54:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 20:29:55:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 20:29:56:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 20:29:56:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 20:30:00:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 20:30:01:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 20:32:01:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 20:32:03:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 20:32:03:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 20:32:03:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 20:32:03:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 20:32:04:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 20:34:04:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 20:34:05:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 20:34:05:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 20:34:05:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 20:34:05:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 20:34:05:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 20:34:35:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 20:34:36:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 20:34:36:INFO:ContestCache:1261 contests stored in database
+15-03-2020 20:34:36:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 20:34:36:INFO:Contests:Refreshed cache
+15-03-2020 20:34:36:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 20:36:05:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 20:36:13:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 20:36:15:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 20:36:15:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 20:36:16:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 20:36:19:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 20:38:19:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 20:38:20:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 20:38:20:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 20:38:20:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 20:38:20:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 20:38:21:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 20:39:36:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 20:39:39:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 20:39:39:INFO:ContestCache:1261 contests stored in database
+15-03-2020 20:39:39:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 20:39:39:INFO:Contests:Refreshed cache
+15-03-2020 20:39:39:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 20:40:21:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 20:40:22:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 20:40:23:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 20:40:23:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 20:40:24:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 20:40:24:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 20:42:24:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 20:42:25:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 20:42:25:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 20:42:25:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 20:42:25:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 20:42:26:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 20:44:26:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 20:44:28:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 20:44:28:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 20:44:28:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 20:44:28:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 20:44:29:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 20:44:39:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 20:44:44:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 20:44:44:INFO:ContestCache:1261 contests stored in database
+15-03-2020 20:44:44:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 20:44:44:INFO:Contests:Refreshed cache
+15-03-2020 20:44:44:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 20:46:29:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 20:46:30:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 20:46:30:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 20:46:30:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 20:46:30:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 20:46:30:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 20:48:30:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 20:48:37:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 20:48:37:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 20:48:37:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 20:48:39:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 20:48:40:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 20:49:44:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 20:49:45:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 20:49:45:INFO:ContestCache:1261 contests stored in database
+15-03-2020 20:49:45:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 20:49:45:INFO:Contests:Refreshed cache
+15-03-2020 20:49:45:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 20:50:40:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 20:50:41:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 20:50:41:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 20:50:41:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 20:50:42:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 20:50:42:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 20:52:42:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 20:52:45:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 20:52:49:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 20:52:49:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 20:52:49:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 20:52:51:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 20:54:45:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 20:54:47:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 20:54:47:INFO:ContestCache:1261 contests stored in database
+15-03-2020 20:54:47:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 20:54:47:INFO:Contests:Refreshed cache
+15-03-2020 20:54:47:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 20:54:51:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 20:54:51:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 20:54:52:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 20:54:52:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 20:54:52:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 20:54:52:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 20:55:05:ERROR:tle.util.discord_common:Ignoring exception in command ranklist:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 441, in _actual_conversion
+    return converter(argument)
+ValueError: invalid literal for int() with base 10: 'GrintonDH'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\bot.py", line 892, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 790, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 751, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 670, in _parse_arguments
+    transformed = await self.transform(ctx, param)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 526, in transform
+    return await self.do_conversion(ctx, converter, argument, param)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 479, in do_conversion
+    return await self._actual_conversion(ctx, converter, argument, param)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 450, in _actual_conversion
+    raise BadArgument('Converting to "{}" failed for parameter "{}".'.format(name, param.name)) from exc
+discord.ext.commands.errors.BadArgument: Converting to "int" failed for parameter "contest_id".
+15-03-2020 20:55:20:ERROR:tle.util.discord_common:Ignoring exception in command ranklist:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\bot.py", line 892, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 790, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 751, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 670, in _parse_arguments
+    transformed = await self.transform(ctx, param)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 516, in transform
+    raise MissingRequiredArgument(param)
+discord.ext.commands.errors.MissingRequiredArgument: contest_id is a required argument that is missing.
+15-03-2020 20:55:49:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.status with {'handle': 'GrintonDH'}
+15-03-2020 20:56:52:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 20:56:53:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 20:56:53:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 20:56:53:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 20:56:53:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 20:56:54:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 20:58:54:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 20:58:57:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 20:58:58:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 20:58:58:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 20:58:58:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 20:58:58:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 20:59:19:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1325, 'from': 1, 'count': 1}
+15-03-2020 20:59:21:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1312, 'from': 1, 'count': 1}
+15-03-2020 20:59:23:INFO:ProblemsetCache:Saved 0 problems to database.
+15-03-2020 20:59:23:INFO:ProblemsetCache:0 new problems saved and 0 saved problems updated.
+15-03-2020 20:59:47:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 20:59:52:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 20:59:52:INFO:ContestCache:1261 contests stored in database
+15-03-2020 20:59:52:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 20:59:52:INFO:Contests:Refreshed cache
+15-03-2020 20:59:52:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 21:00:58:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 21:00:59:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 21:00:59:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 21:00:59:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 21:01:00:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 21:01:00:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 21:01:11:ERROR:tle.util.discord_common:Ignoring exception in command handle list:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 83, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\Administrator\TLE\tle\cogs\handles.py", line 363, in list
+    paginator.paginate(self.bot, ctx.channel, pages, wait_time=_PAGINATE_WAIT_TIME,
+  File "C:\Users\Administrator\TLE\tle\util\paginator.py", line 83, in paginate
+    raise InsufficientPermissionsError('Permission to manage messages required')
+tle.util.paginator.InsufficientPermissionsError: Permission to manage messages required
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\bot.py", line 892, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 1234, in invoke
+    await ctx.invoked_subcommand.invoke(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 797, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 92, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: InsufficientPermissionsError: Permission to manage messages required
+15-03-2020 21:03:00:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 21:03:01:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 21:03:02:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 21:03:02:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 21:03:02:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 21:03:03:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 21:04:52:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 21:04:55:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 21:04:55:INFO:ContestCache:1261 contests stored in database
+15-03-2020 21:04:55:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 21:04:55:INFO:Contests:Refreshed cache
+15-03-2020 21:04:55:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 21:05:03:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 21:05:03:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 21:05:03:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 21:05:03:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 21:05:04:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 21:05:04:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 21:07:04:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 21:07:05:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 21:07:05:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 21:07:05:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 21:07:05:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 21:07:06:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 21:09:06:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 21:09:07:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 21:09:07:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 21:09:07:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 21:09:07:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 21:09:08:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 21:09:55:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 21:09:57:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 21:09:57:INFO:ContestCache:1261 contests stored in database
+15-03-2020 21:09:57:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 21:09:57:INFO:Contests:Refreshed cache
+15-03-2020 21:09:57:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 21:11:08:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 21:11:09:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 21:11:09:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 21:11:09:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 21:11:09:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 21:11:10:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 21:13:10:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 21:13:10:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 21:13:11:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 21:13:11:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 21:13:11:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 21:13:11:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 21:14:57:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 21:15:05:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 21:15:05:INFO:ContestCache:1261 contests stored in database
+15-03-2020 21:15:05:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 21:15:05:INFO:Contests:Refreshed cache
+15-03-2020 21:15:05:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 21:15:11:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 21:15:12:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 21:15:12:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 21:15:12:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 21:15:13:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 21:15:13:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 21:17:13:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 21:17:14:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 21:17:15:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 21:17:15:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 21:17:15:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 21:17:15:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 21:19:15:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 21:19:16:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 21:19:17:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 21:19:17:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 21:19:17:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 21:19:18:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 21:20:05:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 21:20:16:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 21:20:16:INFO:ContestCache:1261 contests stored in database
+15-03-2020 21:20:16:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 21:20:16:INFO:Contests:Refreshed cache
+15-03-2020 21:20:16:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 21:21:18:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 21:21:21:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 21:21:21:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 21:21:21:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 21:21:22:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 21:21:22:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 21:23:22:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 21:23:25:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 21:23:26:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 21:23:26:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 21:23:26:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 21:23:27:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 21:25:16:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 21:25:22:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 21:25:22:INFO:ContestCache:1261 contests stored in database
+15-03-2020 21:25:22:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 21:25:22:INFO:Contests:Refreshed cache
+15-03-2020 21:25:22:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 21:25:27:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 21:25:27:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 21:25:28:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 21:25:28:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 21:25:28:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 21:25:28:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 21:25:50:ERROR:tle.util.discord_common:Ignoring exception in command handle list:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 83, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\Administrator\TLE\tle\cogs\handles.py", line 363, in list
+    paginator.paginate(self.bot, ctx.channel, pages, wait_time=_PAGINATE_WAIT_TIME,
+  File "C:\Users\Administrator\TLE\tle\util\paginator.py", line 83, in paginate
+    raise InsufficientPermissionsError('Permission to manage messages required')
+tle.util.paginator.InsufficientPermissionsError: Permission to manage messages required
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\bot.py", line 892, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 1234, in invoke
+    await ctx.invoked_subcommand.invoke(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 797, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 92, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: InsufficientPermissionsError: Permission to manage messages required
+15-03-2020 21:27:28:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 21:27:30:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 21:27:30:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 21:27:30:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 21:27:31:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 21:27:31:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 21:29:31:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 21:29:33:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 21:29:33:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 21:29:33:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 21:29:33:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 21:29:33:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 21:29:59:WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+15-03-2020 21:30:00:INFO:tle.cogs.logging:Skipping installation of logging cog as logging channel is not provided.
+15-03-2020 21:30:00:INFO:root:Cogs loaded: CacheControl, Codeforces, Contests, CSES, Dueling, Graphs, Handles, Meta, Starboard
+15-03-2020 21:30:00:INFO:discord.client:logging in using static token
+15-03-2020 21:30:02:INFO:discord.gateway:Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+15-03-2020 21:30:02:INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+15-03-2020 21:30:02:INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-s406",{"micros":74050,"calls":["discord-sessions-prd-1-5",{"micros":65058,"calls":["start_session",{"micros":64080,"calls":["api-prd-main-q26m",{"micros":59419,"calls":["get_user",{"micros":4091},"add_authorized_ip",{"micros":7830},"get_guilds",{"micros":2528},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 51475fc221f6b5929e623df338bba21d).
+15-03-2020 21:30:05:INFO:RatingChangesCache:Ratings for 9400 handles cached
+15-03-2020 21:30:05:INFO:Task:Starting up task `RatingChangesCacheUpdate`.
+15-03-2020 21:30:05:INFO:Task:Starting up task `RanklistCacheUpdate`.
+15-03-2020 21:30:05:INFO:ContestCache:1261 contests fetched from disk
+15-03-2020 21:30:05:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 21:30:05:INFO:Task:Starting up task `ContestCacheUpdate`.
+15-03-2020 21:30:05:INFO:ProblemCache:5462 problems fetched from disk
+15-03-2020 21:30:05:INFO:Task:Starting up task `ProblemCacheUpdate`.
+15-03-2020 21:30:05:INFO:Task:Starting up task `ProblemsetCacheUpdate`.
+15-03-2020 21:30:05:WARNING:tle.util.codeforces_common:JSON file containing contest writers not found
+15-03-2020 21:30:05:INFO:Task:Starting up task `ContestCogUpdate`.
+15-03-2020 21:30:05:INFO:Task:Starting up task `SetExUsersInactive`.
+15-03-2020 21:30:05:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 21:30:05:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/problemset.problems with {}
+15-03-2020 21:30:05:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1312, 'from': 1, 'count': 1}
+15-03-2020 21:30:06:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1325, 'from': 1, 'count': 1}
+15-03-2020 21:30:07:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 21:30:07:INFO:ContestCache:1261 contests stored in database
+15-03-2020 21:30:07:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 21:30:07:INFO:Task:Starting up task `RanklistCacheUpdate.MonitorActiveContests`.
+15-03-2020 21:30:07:INFO:Contests:Refreshed cache
+15-03-2020 21:30:07:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 21:30:07:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 21:30:07:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 21:30:07:INFO:ProblemsetCache:Saved 0 problems to database.
+15-03-2020 21:30:07:INFO:ProblemsetCache:0 new problems saved and 0 saved problems updated.
+15-03-2020 21:30:07:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 21:30:07:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 21:30:07:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 21:30:08:INFO:ProblemCache:5887 problems fetched from API
+15-03-2020 21:30:08:INFO:ProblemCache:Keeping 5462 problems
+15-03-2020 21:30:08:INFO:ProblemCache:5462 problems stored in database
+15-03-2020 21:30:08:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 21:30:22:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 21:30:23:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 21:30:23:INFO:ContestCache:1261 contests stored in database
+15-03-2020 21:30:23:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 21:30:23:INFO:Contests:Refreshed cache
+15-03-2020 21:30:23:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 21:31:33:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 21:31:35:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 21:31:37:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 21:31:37:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 21:31:37:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 21:31:37:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 21:32:02:ERROR:tle.util.discord_common:Ignoring exception in command handle list:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 83, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\Administrator\TLE\tle\cogs\handles.py", line 363, in list
+    paginator.paginate(self.bot, ctx.channel, pages, wait_time=_PAGINATE_WAIT_TIME,
+  File "C:\Users\Administrator\TLE\tle\util\paginator.py", line 83, in paginate
+    raise InsufficientPermissionsError('Permission to manage messages required')
+tle.util.paginator.InsufficientPermissionsError: Permission to manage messages required
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\bot.py", line 892, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 1234, in invoke
+    await ctx.invoked_subcommand.invoke(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 797, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 92, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: InsufficientPermissionsError: Permission to manage messages required
+15-03-2020 21:32:02:ERROR:tle.util.discord_common:Ignoring exception in command handle list:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 83, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\Administrator\TLE\tle\cogs\handles.py", line 363, in list
+    paginator.paginate(self.bot, ctx.channel, pages, wait_time=_PAGINATE_WAIT_TIME,
+  File "C:\Users\Administrator\TLE\tle\util\paginator.py", line 83, in paginate
+    raise InsufficientPermissionsError('Permission to manage messages required')
+tle.util.paginator.InsufficientPermissionsError: Permission to manage messages required
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\bot.py", line 892, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 1234, in invoke
+    await ctx.invoked_subcommand.invoke(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 797, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 92, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: InsufficientPermissionsError: Permission to manage messages required
+15-03-2020 21:32:08:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 21:32:10:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 21:32:10:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 21:32:10:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 21:32:11:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 21:32:12:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 21:33:30:ERROR:tle.util.discord_common:Ignoring exception in command handle remove:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\bot.py", line 892, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 1234, in invoke
+    await ctx.invoked_subcommand.invoke(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 790, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 751, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 670, in _parse_arguments
+    transformed = await self.transform(ctx, param)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 526, in transform
+    return await self.do_conversion(ctx, converter, argument, param)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 479, in do_conversion
+    return await self._actual_conversion(ctx, converter, argument, param)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 425, in _actual_conversion
+    ret = await instance.convert(ctx, argument)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\converter.py", line 134, in convert
+    raise BadArgument('Member "{}" not found'.format(argument))
+discord.ext.commands.errors.BadArgument: Member "GrintonDH" not found
+15-03-2020 21:33:30:ERROR:tle.util.discord_common:Ignoring exception in command handle remove:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\bot.py", line 892, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 1234, in invoke
+    await ctx.invoked_subcommand.invoke(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 790, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 751, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 670, in _parse_arguments
+    transformed = await self.transform(ctx, param)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 526, in transform
+    return await self.do_conversion(ctx, converter, argument, param)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 479, in do_conversion
+    return await self._actual_conversion(ctx, converter, argument, param)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 425, in _actual_conversion
+    ret = await instance.convert(ctx, argument)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\converter.py", line 134, in convert
+    raise BadArgument('Member "{}" not found'.format(argument))
+discord.ext.commands.errors.BadArgument: Member "GrintonDH" not found
+15-03-2020 21:33:37:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 21:33:48:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 21:33:48:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 21:33:48:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 21:33:49:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 21:33:49:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 21:34:12:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 21:34:33:ERROR:tle.util.codeforces_api:Request to CF API encountered error: ClientConnectorError(ConnectionKey(host='codeforces.com', port=443, is_ssl=True, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), OSError(22, 'The semaphore timeout period has expired', None, 121, None))
+15-03-2020 21:34:33:INFO:tle.util.codeforces_api:Try 1/3 at query failed.
+15-03-2020 21:34:33:INFO:tle.util.codeforces_api:ClientError('Error connecting to Codeforces API')
+15-03-2020 21:34:33:INFO:tle.util.codeforces_api:Retrying...
+15-03-2020 21:34:33:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 21:34:34:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 21:34:35:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 21:34:35:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 21:34:35:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 21:34:35:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 21:34:44:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.info with {'handles': 'GrintonDH'}
+15-03-2020 21:34:44:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.info with {'handles': 'GrintonDH'}
+15-03-2020 21:35:04:INFO:tle.util.codeforces_common:558303892224475149 repeatedly calls handle group
+15-03-2020 21:35:04:INFO:tle.util.codeforces_common:558303892224475149 repeatedly calls handle group
+15-03-2020 21:35:07:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 21:35:13:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 21:35:13:INFO:ContestCache:1261 contests stored in database
+15-03-2020 21:35:13:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 21:35:13:INFO:Contests:Refreshed cache
+15-03-2020 21:35:13:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 21:35:23:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.list with {}
+15-03-2020 21:35:26:INFO:ContestCache:1261 contests fetched from API
+15-03-2020 21:35:26:INFO:ContestCache:1261 contests stored in database
+15-03-2020 21:35:26:INFO:EventSystem:Dispatching event `ContestListRefresh`
+15-03-2020 21:35:26:INFO:Contests:Refreshed cache
+15-03-2020 21:35:26:INFO:Contests:Tasks for guild 688202074952957983 cleared
+15-03-2020 21:35:45:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.status with {'handle': 'GrintonDH', 'count': 5}
+15-03-2020 21:35:46:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.status with {'handle': 'GrintonDH', 'count': 5}
+15-03-2020 21:35:47:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/user.info with {'handles': 'GrintonDH'}
+15-03-2020 21:35:48:ERROR:tle.util.discord_common:Ignoring exception in command handle identify:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 83, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\Administrator\TLE\tle\util\codeforces_common.py", line 84, in f
+    await fun(self, ctx, *args, **kwargs)
+  File "C:\Users\Administrator\TLE\tle\cogs\handles.py", line 276, in identify
+    await self._set(ctx, ctx.author, users[0])
+  File "C:\Users\Administrator\TLE\tle\cogs\handles.py", line 247, in _set
+    await self.update_member_rank_role(member, role_to_assign,
+  File "C:\Users\Administrator\TLE\tle\cogs\handles.py", line 222, in update_member_rank_role
+    await member.add_roles(role_to_assign, reason=reason)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\member.py", line 641, in add_roles
+    await req(guild_id, user_id, role.id, reason=reason)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\http.py", line 221, in request
+    raise Forbidden(r, data)
+discord.errors.Forbidden: 403 Forbidden (error code: 50001): Missing Access
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\bot.py", line 892, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 1234, in invoke
+    await ctx.invoked_subcommand.invoke(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 797, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 92, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: Forbidden: 403 Forbidden (error code: 50001): Missing Access
+15-03-2020 21:35:49:ERROR:tle.util.discord_common:Ignoring exception in command handle identify:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 83, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\Administrator\TLE\tle\util\codeforces_common.py", line 84, in f
+    await fun(self, ctx, *args, **kwargs)
+  File "C:\Users\Administrator\TLE\tle\cogs\handles.py", line 278, in identify
+    await ctx.send(f'Sorry `{invoker}`, can you try again?')
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\abc.py", line 856, in send
+    data = await state.http.send_message(channel.id, content, tts=tts, embed=embed, nonce=nonce)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\http.py", line 221, in request
+    raise Forbidden(r, data)
+discord.errors.Forbidden: 403 Forbidden (error code: 50001): Missing Access
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\bot.py", line 892, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 1234, in invoke
+    await ctx.invoked_subcommand.invoke(ctx)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 797, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\Administrator\AppData\Local\pypoetry\Cache\virtualenvs\tle-LneJIVoA-py3.8\lib\site-packages\discord\ext\commands\core.py", line 92, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: Forbidden: 403 Forbidden (error code: 50001): Missing Access
+15-03-2020 21:35:49:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 21:35:50:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 21:35:51:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 21:35:51:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 21:35:51:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 21:35:52:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 21:36:35:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308, 'showUnofficial': 'true'}
+15-03-2020 21:36:36:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1308}
+15-03-2020 21:36:37:INFO:RanklistCache:Ranklist fetched for contest 1308
+15-03-2020 21:36:37:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309, 'showUnofficial': 'true'}
+15-03-2020 21:36:37:INFO:tle.util.codeforces_api:Querying CF API at https://codeforces.com/api/contest.standings with {'contestId': 1309}
+15-03-2020 21:36:37:INFO:RanklistCache:Ranklist fetched for contest 1309
+15-03-2020 21:51:33:WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+15-03-2020 21:51:34:INFO:tle.cogs.logging:Skipping installation of logging cog as logging channel is not provided.
+15-03-2020 21:51:34:INFO:root:Cogs loaded: CacheControl, Codeforces, Contests, CSES, Dueling, Graphs, Handles, Meta, Starboard
+15-03-2020 21:51:34:INFO:discord.client:logging in using static token
+15-03-2020 21:51:35:INFO:discord.client:Cleaning up tasks.
+15-03-2020 21:51:35:INFO:discord.client:Closing the event loop.
+15-03-2020 21:54:33:WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+15-03-2020 21:54:33:INFO:tle.cogs.logging:Skipping installation of logging cog as logging channel is not provided.
+15-03-2020 21:54:33:INFO:root:Cogs loaded: CacheControl, Codeforces, Contests, CSES, Dueling, Graphs, Handles, Meta, Starboard
+15-03-2020 21:54:33:INFO:discord.client:logging in using static token
+15-03-2020 21:54:33:INFO:discord.client:Cleaning up tasks.
+15-03-2020 21:54:33:INFO:discord.client:Closing the event loop.
+15-03-2020 21:56:49:WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+15-03-2020 21:56:50:INFO:tle.cogs.logging:Skipping installation of logging cog as logging channel is not provided.
+15-03-2020 21:56:50:INFO:root:Cogs loaded: CacheControl, Codeforces, Contests, CSES, Dueling, Graphs, Handles, Meta, Starboard
+15-03-2020 21:56:50:INFO:discord.client:logging in using static token
+15-03-2020 21:56:50:INFO:discord.client:Cleaning up tasks.
+15-03-2020 21:56:50:INFO:discord.client:Closing the event loop.
